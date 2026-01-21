@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { User } from '@workos-inc/node';
+	import type { User } from '@workos/node';
 
 	let { user = null, large = false } = $props<{ user: User | null; large?: boolean }>();
 </script>
